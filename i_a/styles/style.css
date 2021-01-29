@@ -132,15 +132,6 @@ hr {
     border: 1px solid var(--passive-color);
 }
 
-page-header {
-    display: flex;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    background: var(--passive-color);
-    z-index: var(--max-z-index);
-}
-
 page-footer {
     position: absolute;
     background: var(--secondary-color);
