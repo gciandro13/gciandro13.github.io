@@ -1,5 +1,5 @@
-a, 
-.active > a, 
+a,
+.active>a,
 .promo-box i.fa,
 .cp-navbar.menu-bg ul li.active a,
 .choose-box i.fa,
@@ -14,22 +14,21 @@ i.fa,
 .contact-form .form-group:before,
 .news-content .subtitle i.fa,
 .service-box i.fa,
-.newsletter-form .mc-submit:hover
-{
-    color: #77be2d;
+.newsletter-form .mc-submit:hover {
+    color: #3f3bab;
 }
 
 
-.skill-progress-bar > span,
+.skill-progress-bar>span,
 .accordion .panel-heading i.fa,
-.btn, 
+.btn,
 .cp-navbar .navbar-toggle .icon-bar,
-.price-item.featured .info ,
-.price-item.featured a.btn ,
-.tabs-left > .nav-tabs > li,
+.price-item.featured .info,
+.price-item.featured a.btn,
+.tabs-left>.nav-tabs>li,
 #fun-facts,
 .price-item a.btn,
-#slider .carousel-indicators li.active, 
+#slider .carousel-indicators li.active,
 input[type='submit'],
 .navbar-toggle .icon-bar,
 .carousel-control img:hover,
@@ -38,27 +37,26 @@ input[type='submit'],
 .nav-tabs li a,
 .project-item .figcaption,
 .owl-buttons i.fa,
-[class*=' imghvr-shutter-in-']:after, 
-[class*=' imghvr-shutter-in-']:before, 
-[class^=imghvr-shutter-in-]:after, 
+[class*=' imghvr-shutter-in-']:after,
+[class*=' imghvr-shutter-in-']:before,
+[class^=imghvr-shutter-in-]:after,
 [class^=imghvr-shutter-in-]:before,
 .widget-search input[type="submit"],
-.pagination>.active>a, 
-.pagination>.active>a:focus, 
-.pagination>.active>a:hover, 
-.pagination>.active>span, 
-.pagination>.active>span:focus, 
-.pagination>.active>span:hover
-{
-    background-color: #77be2d;
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: #3f3bab;
 }
 
 #slider .carousel-indicators li.active,
-.pagination>.active>a, 
-.pagination>.active>a:focus, 
-.pagination>.active>a:hover, 
-.pagination>.active>span, 
-.pagination>.active>span:focus, 
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
 .pagination>.active>span:hover {
-    border-color: #77be2d;
+    border-color: #3f3bab;
 }
