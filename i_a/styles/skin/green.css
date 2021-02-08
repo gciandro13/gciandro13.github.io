@@ -15,7 +15,7 @@ i.fa,
 .news-content .subtitle i.fa,
 .service-box i.fa,
 .newsletter-form .mc-submit:hover {
-    color: #3f3bab;
+    color: #0000ff;
 }
 
 
@@ -48,7 +48,7 @@ input[type='submit'],
 .pagination>.active>span,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
-    background-color: #3f3bab;
+    background-color: #0000ff;
 }
 
 #slider .carousel-indicators li.active,
@@ -58,5 +58,5 @@ input[type='submit'],
 .pagination>.active>span,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
-    border-color: #3f3bab;
+    border-color: #0000ff;
 }
