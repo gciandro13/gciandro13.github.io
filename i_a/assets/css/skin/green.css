@@ -16,6 +16,7 @@ i.fa,
 .service-box i.fa,
 .newsletter-form .mc-submit:hover {
     color: #065A8C;
+
 }
 
 
@@ -48,7 +49,12 @@ input[type='submit'],
 .pagination>.active>span,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
-    background-color: #065A8C;
+    color: #FFFFFF  !important;
+}
+
+.btn:hover{
+    color:#FFFFFF;
+    font-weight: bold;
 }
 
 #slider .carousel-indicators li.active,

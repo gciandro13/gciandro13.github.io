@@ -178,7 +178,8 @@ input[type='submit'] {
 }
 
 .btn.btn-white:hover {
-    color: #065A8C;
+    color: #FFFFFF;
+    font-weight:bold; 
 }
 
 .section-big {
@@ -251,7 +252,7 @@ input[type='submit'] {
 *                               02. Navigation area css
 * --------------------------------------------------------------------------------------- */
 .top-bar {
-    height: 50px;
+    height: 25px;
     line-height: 50px;
     background: #666;
     color: #fff;
@@ -333,10 +334,12 @@ input[type='submit'] {
 }
 
 .navbar-brand img {
+    box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
-    width:100%;
-    max-height: 150%
+    width:130%;
+    max-height: 150%;
+
 }
 
 .sticky-menu .navbar-brand img {
@@ -398,8 +401,10 @@ input[type='submit'] {
 
 @media (max-width: 768px){
     .navbar-brand img {
-        max-height: 100%
+        max-height: 40%,
+        
     }
+    
 }
 
 .navbar-nav .dropdown-menu li a {
@@ -500,7 +505,7 @@ input[type='submit'] {
 }
 
 #slider .item {
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -518,26 +523,32 @@ input[type='submit'] {
 /* Slide Background Image */
 #slider .slide1 {
     background-image: url(../img/slider/slide1.jpg);
+    background-size: contain;
 }
 
 #slider .slide2 {
     background-image: url(../img/slider/slide2.jpg);
+    background-size: contain;
 }
 
 #slider .slide3 {
     background-image: url(../img/slider/slide3.jpg);
+    background-size: contain;
 }
 
 #slider .slide4 {
     background-image: url(../img/slider/slide4.JPG);
+    background-size: contain;
 }
 
 #slider .slide5 {
     background-image: url(../img/slider/slide5.jpg);
+    background-size: contain;
 }
 
 #slider .slide6 {
     background-image: url(../img/slider/slide6.JPG);
+    background-size: contain;
 }
 
 .intro-text {
