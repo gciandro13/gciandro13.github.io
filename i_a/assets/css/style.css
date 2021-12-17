@@ -305,7 +305,7 @@ input[type='submit'] {
 
 .menu-area.sticky-menu {
     top: 0px;
-    height: 65px;
+    height: 95px;
     width: 100%;
     position: fixed;
     box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
@@ -337,7 +337,7 @@ input[type='submit'] {
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
     width:130%;
-    max-height: 130%;
+    max-height: 180%;
 
 }
 
@@ -602,7 +602,18 @@ input[type='submit'] {
 
 
 /* Slider text animation */
-
+.animation{
+        -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -webkit-transition: all 0.3s ease .1s;
+    -moz-transition: all 0.3s ease .1s;
+    -ms-transition: all 0.3s ease .1s;
+    -o-transition: all 0.3s ease .1s;
+    transition: all 0.3s ease .1s;
+}
 .intro-text h2 {
     -webkit-transform: translateY(-100px);
     -moz-transform: translateY(-100px);
