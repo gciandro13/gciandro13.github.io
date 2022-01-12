@@ -299,8 +299,6 @@ input[type='submit'] {
     background: #fff;
     height: 95px;
     z-index: 99;
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
 }
 
 .menu-area.sticky-menu {
@@ -309,14 +307,12 @@ input[type='submit'] {
     width: 100%;
     position: fixed;
     box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
 }
 
 .mainmenu {
-    padding-top: 10px;
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
+    /* padding-top: 10px; */
+    /* transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out; */
 }
 
 .sticky-menu .mainmenu {
@@ -334,19 +330,12 @@ input[type='submit'] {
 }
 
 .navbar-brand img {
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
     width:130%;
-    max-height: 180%;
+    max-height: 160%;
 
 }
 
-.sticky-menu .navbar-brand img {
-    width: 90%;
-    margin: 2% 0;
-    height: auto;
 
-}
 
 .navbar-brand {
     padding: 0;
