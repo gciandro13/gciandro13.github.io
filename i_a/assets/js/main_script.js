@@ -66,8 +66,8 @@
      *-------------------------------------------------------------------------*/
       wndw.on('scroll', function () {
           var menu_area = $('.menu-area');
-          if (wndw.scrollTop() > 200) {
-              menu_area.addClass('sticky-menu');
+          if (wndw.scrollTop() > 0.1) {
+               menu_area.addClass('sticky-menu');
           } else {
               menu_area.removeClass('sticky-menu');
           }
